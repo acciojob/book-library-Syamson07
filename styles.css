@@ -1,11 +1,11 @@
-/* Body background */
+/* General styles */
 body {
     background-color: #f8f8f8;
     font-family: Arial, sans-serif;
     text-align: center;
 }
 
-/* Book Library container */
+/* Library container */
 .book-library {
     background-color: #ffffff;
     width: 50%;
@@ -15,7 +15,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Individual Book Block - Now Stacked Vertically */
+/* Individual book block */
 .book {
     background-color: #ffffff;
     padding: 15px;
@@ -23,27 +23,36 @@ body {
     width: 100%;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Adds spacing between books */
+    margin-bottom: 20px;
 }
 
+/* Book image */
 .book img {
-    width: 50%; /* Adjust width for smaller images */
+    width: 50%;
     height: auto;
     border-radius: 5px;
 }
 
+/* Title */
 .book h2 {
     font-size: 18px;
     margin: 10px 0;
 }
 
+/* Author styling */
 .book .author {
-    color: #777777;
+    color: #777777; /* rgb(119, 119, 119) */
     font-size: 14px;
 }
 
+/* Price block */
 .book .price {
-    color: #2ecc71;
+    background-color: #2ecc71; /* rgb(46, 204, 113) */
+    color: #ffffff; /* rgb(255, 255, 255) */
     font-size: 16px;
     font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
 }
