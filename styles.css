@@ -1,1 +1,49 @@
-/*  your css code here. If applicable */
+/* Body background */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Book Library container */
+.book-library {
+    background-color: #ffffff;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Book Block - Now Stacked Vertically */
+.book {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Adds spacing between books */
+}
+
+.book img {
+    width: 50%; /* Adjust width for smaller images */
+    height: auto;
+    border-radius: 5px;
+}
+
+.book h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.book .author {
+    color: #777777;
+    font-size: 14px;
+}
+
+.book .price {
+    color: #2ecc71;
+    font-size: 16px;
+    font-weight: bold;
+}
